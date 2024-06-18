@@ -395,11 +395,15 @@ When using a service account to create events through the Google Calendar API, t
 
 ## Guest Status for Other Users:
 
-Users invited to events created by a service account will be treated as guests, regardless of their access level or permissions within the organization. Guests typically have limited capabilities compared to organizers, such as restricted editing rights or access to event details.
+- Users invited to events created by a service account will be treated as guests, regardless of their access level or permissions within the organization.
+- Guests typically have limited capabilities compared to organizers, such as restricted editing rights or access to event details.
 
 ## Event Ownership and Retrieval:
 
-When events are created using a service account, the service account becomes the organizer of all events. This means that events created by the service account cannot be retrieved or managed by individual users as their own events. Users invited to these events will only be considered guests, which limits their ability to view or modify the event details. As a result, it is not possible to retrieve events for specific users if every event is created under the service account's email address.
+- When events are created using a service account, the service account becomes the organizer of all events.
+- This means that events created by the service account cannot be retrieved or managed by individual users as their own events.
+- Users invited to these events will only be considered guests, which limits their ability to view or modify the event details.
+- As a result, it is not possible to retrieve events for specific users if every event is created under the service account's email address.
 
 ## Conclusion:
 
