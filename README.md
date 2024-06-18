@@ -1,13 +1,13 @@
-# Google Calendar API Integration with FLBC using Java
+# Google Calendar API Integration with Java
 
 ## Introduction
-Integrating the Google Calendar API into FLBC allows you to automate and manage calendar-related tasks programmatically. This guide will walk you through the steps to set up and authenticate with Google's services using a service account, and interact with the API to create, update, and retrieve calendar events.
+Integrating the Google Calendar API into your java application allows you to automate and manage calendar-related tasks programmatically. This guide will walk you through the steps to set up and authenticate with Google's services using a service account, and interact with the API to create, update, and retrieve calendar events.
 
 **Key Benefits:**
 - **Automation:** Streamline scheduling and event management processes.
-- **Integration:** Seamlessly integrate calendar functionalities into FLBC.
+- **Integration:** Seamlessly integrate calendar functionalities into your java application.
 
-Now, let's explore how to set up and utilize the Google Calendar API in FLBC.
+Now, let's explore how to set up and utilize the Google Calendar API in your java application.
 
 ## Prerequisites
 - A Google Cloud Project
@@ -407,7 +407,7 @@ When using a service account to create events through the Google Calendar API, t
 
 ## Conclusion:
 
-Integrating the Google Calendar API into FLBC empowers you to leverage powerful scheduling and event management functionalities. By following the steps outlined in this guide, you can effectively harness the capabilities of the API to automate tasks and manage events.
+Integrating the Google Calendar API into your java application empowers you to leverage powerful scheduling and event management functionalities. By following the steps outlined in this guide, you can effectively harness the capabilities of the API to automate tasks and manage events.
 
 ## Key Takeaways:
 
@@ -415,5 +415,5 @@ Integrating the Google Calendar API into FLBC empowers you to leverage powerful 
 - **Dependency Management:** Include essential Maven dependencies for seamless integration.
 - **API Usage:** Write Java code to authenticate with Google's services and interact with the Google Calendar API to perform operations like event creation, retrieval, and updates.
 
-By leveraging the Google Calendar API, you can enhance the functionality of FLBC, streamline workflows, and provide users with powerful scheduling capabilities directly within your software.
+By leveraging the Google Calendar API, you can enhance the functionality of your java application, streamline workflows, and provide users with powerful scheduling capabilities directly within your software.
 
